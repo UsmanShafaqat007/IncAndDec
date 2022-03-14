@@ -13,6 +13,3 @@ const changeNumber = (state = StartValue, action) => {
   }
 };
 export default changeNumber;
-
-
-
