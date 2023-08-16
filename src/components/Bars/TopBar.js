@@ -15,9 +15,9 @@ import {
   Twitter,
   Instagram
 } from "@mui/icons-material"
-import {LinkedIn, LocalPhoneOutlined, Phone} from "@material-ui/icons"
+import {LinkedIn, LocalPhoneOutlined, Phone} from "@mui/icons-material"
 import "./TopBar.scss"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 
 const TopBar = ({height}) => {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -28,7 +28,7 @@ const TopBar = ({height}) => {
 
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl)
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     dotsBtn: {
       width: "3px",
       padding: 0

@@ -2,10 +2,10 @@ import React from "react"
 import {
   Typography
 } from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
-import { Card, CardContent } from "@material-ui/core"
+import {styled} from "@mui/material/styles"
+import { Card, CardContent } from "@mui/material"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   card: {
     // maxWidth: 600,
     margin: "auto",

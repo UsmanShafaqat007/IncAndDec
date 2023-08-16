@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {Grid, Card, CardContent, Typography, Pagination, PaginationItem} from '@mui/material';
-import {makeStyles} from '@material-ui/core/styles';
+import {styled} from '@mui/material/styles';
 import {getPreviousAuctions} from "../apis/previousAuctions";
 import CircularProgress from '@mui/material/CircularProgress';
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     flag: {
         position: 'absolute',
         top: theme.spacing(1),

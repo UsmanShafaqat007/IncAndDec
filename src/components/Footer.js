@@ -1,6 +1,6 @@
 import React from "react"
 import {Grid, Typography} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Link, useNavigate} from "react-router-dom"
 
 const links = [
@@ -43,7 +43,7 @@ const Footer = ({}) => {
     marginRight: "7px"
   }
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     iconsStyleDiv: {
       display: "flex",
       gap: "8px",

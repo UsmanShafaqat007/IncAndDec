@@ -1,9 +1,9 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core/styles';
+import {styled} from '@mui/material/styles';
 import {Grid, List, ListItem, ListItemIcon, ListItemText, Typography} from "@mui/material";
-import {FiberManualRecord} from "@material-ui/icons";
+import {FiberManualRecord} from "@mui/icons-material";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     root: {
         marginTop: '150px',
         // marginLeft: theme.spacing(2),

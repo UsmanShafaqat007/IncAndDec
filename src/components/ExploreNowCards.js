@@ -1,10 +1,10 @@
 import React from "react"
 import {Grid, Card, CardContent, Typography, Button} from "@mui/material"
 import {ArrowForwardIos} from "@mui/icons-material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Link} from "react-router-dom"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   card: {
     color: "white",
     height: "100%",

@@ -11,12 +11,12 @@ import {
 } from '@mui/material';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import {useNavigate} from 'react-router-dom'
 
 const TopBar = () => {
 
-    const useStyles = makeStyles(theme => ({
+    const useStyles = styled(theme => ({
         mainDiv: {
             padding: theme.spacing(2),
             backgroundColor: "black"

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {makeStyles} from '@material-ui/core/styles';
-import {Button, Grid, Typography, CircularProgress} from '@material-ui/core';
+import {styled} from '@mui/material/styles';
+import {Button, Grid, Typography, CircularProgress} from '@mui/material';
 import {addUpcomingAuction, getUpcomingAuctions} from "../apis/upcomingAuctions";
 import {Pagination, PaginationItem} from "@mui/material";
 import axios from "axios";
@@ -9,7 +9,7 @@ import Toaster from "./Toaster";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     container: {
         display: 'flex',
         flexDirection: 'row',

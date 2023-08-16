@@ -2,13 +2,13 @@ import React, {useEffect} from "react"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {makeStyles} from "@material-ui/core/styles"
-import {Grid, Typography} from "@material-ui/core"
+import {styled} from "@mui/material/styles"
+import {Grid, Typography} from "@mui/material"
 import CopyrightSection from "../components/CopyrightSection"
 import AccordionComponent from "../components/Accordion"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   root: {
     marginTop: "150px",
     marginLeft: theme.spacing(2),

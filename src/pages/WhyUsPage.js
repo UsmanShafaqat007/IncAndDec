@@ -3,7 +3,7 @@ import HeaderContent from "../components/HeaderContent"
 import WhyUs from "../components/whyUs"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Grid, Typography} from "@mui/material"
 import CopyrightSection from "../components/CopyrightSection"
 import Button from "@mui/material/Button"
@@ -18,7 +18,7 @@ const WhyUsPage = (second) => {
     window.scrollTo(0, 0)
   }, [])
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       marginTop: "90px",
       marginBottom: "90px"

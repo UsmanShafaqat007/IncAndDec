@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {
   Breadcrumbs,
   Grid,
   IconButton,
   Typography
-} from "@material-ui/core"
+} from "@mui/material"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
@@ -15,7 +15,7 @@ import CopyrightSection from "../components/CopyrightSection"
 import {Link} from "react-router-dom"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   container: {
     padding: theme.spacing(2),
     [theme.breakpoints.down("md")]: {

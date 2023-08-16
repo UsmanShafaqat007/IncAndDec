@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Grid, Pagination, PaginationItem} from "@mui/material"
 import LotsList from "../components/Lots/LotsLists"
 import {getSpecificLots} from "../apis/lots"
@@ -12,7 +12,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
 function CurrentLots({type}) {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     pagination: {
       "& .MuiPaginationItem-page": {
         color: "#B21F18",

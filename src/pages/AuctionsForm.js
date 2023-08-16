@@ -10,7 +10,7 @@ import {
   CircularProgress,
   Radio
 } from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
@@ -18,10 +18,10 @@ import {postAuctionRequest} from "../apis/common"
 import Toaster from "../components/Toaster"
 import CopyrightSection from "../components/CopyrightSection"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
-import {Card, CardContent} from "@material-ui/core"
+import {Card, CardContent} from "@mui/material"
 import {RedButton} from "../components/Buttons/redButton"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   formContainer: {
     background: "#fff",
     padding: theme.spacing(2),

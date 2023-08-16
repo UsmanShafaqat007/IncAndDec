@@ -1,12 +1,12 @@
 import {Box, Typography} from "@mui/material"
-import Grid from "@material-ui/core/Grid"
-import ArrowForwardIos from "@material-ui/icons/ArrowForwardIos"
-import {makeStyles} from "@material-ui/core/styles"
+import Grid from "@mui/material/Grid"
+import ArrowForwardIos from "@mui/icons-material/ArrowForwardIos"
+import {styled} from "@mui/material/styles"
 import {Link} from "react-router-dom"
 import {RedButton} from "../Buttons/redButton"
 import Tooltip from "@mui/material/Tooltip"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   root: {
     width: "100%",
     display: "flex",

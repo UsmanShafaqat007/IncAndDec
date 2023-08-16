@@ -8,12 +8,12 @@ import {
   Radio,
   CircularProgress
 } from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import Toaster from "./Toaster"
 import {sendEmail} from "../apis/common"
 
 const EmailSubscription = ({withMargin = false}) => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       backgroundColor: "#B21F18",
       color: "white",

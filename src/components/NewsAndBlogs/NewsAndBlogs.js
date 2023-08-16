@@ -8,8 +8,8 @@ import {
   Pagination,
   PaginationItem
 } from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
-import ArrowForwardIos from "@material-ui/icons/ArrowForwardIos"
+import {styled} from "@mui/material/styles"
+import ArrowForwardIos from "@mui/icons-material/ArrowForwardIos"
 import {Link} from "react-router-dom"
 import {getBlogs} from "../../apis/blogs"
 import Toaster from "../Toaster"
@@ -66,7 +66,7 @@ const NewsAndBlogs = ({offset = 20}) => {
     }
   }
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     card: {
       padding: 0,
       height: "440px"

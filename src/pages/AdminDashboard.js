@@ -1,12 +1,12 @@
 import React from 'react';
 import TopBar from '../components/AdminDashboard/TopBar';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import Sidebar from "../components/AdminDashboard/Sidebar";
 import DynamicTable from "../components/DynamicTable";
 
 function AdminDashboard() {
 
-    const useStyles = makeStyles(theme => ({
+    const useStyles = styled(theme => ({
         root: {
             width: "100%"
         },

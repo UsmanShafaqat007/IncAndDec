@@ -1,9 +1,9 @@
 import React from "react"
 import {Grid, Typography} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 
 const CopyrightSection = () => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       backgroundColor: "#13171C",
       color: "white"

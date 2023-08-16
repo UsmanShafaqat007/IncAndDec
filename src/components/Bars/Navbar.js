@@ -10,7 +10,7 @@ import Container from "@mui/material/Container"
 import Button from "@mui/material/Button"
 import MenuItem from "@mui/material/MenuItem"
 import "./Navbar.scss"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Link, useNavigate} from "react-router-dom"
 import {RedButton} from "../Buttons/redButton"
 
@@ -83,7 +83,7 @@ const Navbar = ({height}) => {
     setAnchorElNav(null)
   }
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     toolBar: {
       [theme.breakpoints.down("sm")]: {
         display: "flex",

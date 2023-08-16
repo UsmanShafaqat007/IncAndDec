@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useContext} from "react"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {
     Breadcrumbs,
     Button,
@@ -7,7 +7,7 @@ import {
     Grid,
     IconButton,
     Typography
-} from "@material-ui/core"
+} from "@mui/material"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
@@ -23,7 +23,7 @@ import NavbarWrapper from "../components/Bars/NavbarWrapper"
 import {RedButton} from "../components/Buttons/redButton"
 import SwiperControls from "../components/Swip"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     container: {
         padding: theme.spacing(2),
         [theme.breakpoints.down("md")]: {

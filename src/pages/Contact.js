@@ -5,12 +5,12 @@ import ContactDetails from "../components/ContactInfo/ContactDetails"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
 import {Grid, Typography} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import CopyrightSection from "../components/CopyrightSection"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
 function Contact() {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     contactBtnDiv: {
       backgroundColor: "#B21F18",
       width: "133px",

@@ -7,9 +7,9 @@ import {
 } from "@mui/material"
 import AddIcon from "@mui/icons-material/Add"
 import CloseIcon from "@mui/icons-material/Close"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   accordion: {
     marginBottom: theme.spacing(1),
     boxShadow: '0 1px 3px rgba(0, 0, 0, 0.2) !important'

@@ -12,13 +12,13 @@ import {
     DialogContent,
     Dialog
 } from '@mui/material';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import Toaster from "../Toaster";
 import {postFile} from '../../apis/common'
 import CloseIcon from "@mui/icons-material/Close";
 import {addBlog, updateBlog} from "../../apis/blogs";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     formContainer: {
         background: '#fff',
         padding: theme.spacing(2),

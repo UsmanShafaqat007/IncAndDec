@@ -2,14 +2,14 @@ import React, {useEffect} from "react"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Grid} from "@mui/material"
 import TestimonialComponent from "../components/TestimonialComponent"
 import CopyrightSection from "../components/CopyrightSection"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
 function Testimonials() {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       margin: "10px"
     }

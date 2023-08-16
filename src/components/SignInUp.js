@@ -12,13 +12,13 @@ import {
     InputAdornment,
     IconButton
 } from '@mui/material';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import {Visibility, VisibilityOff} from '@mui/icons-material';
 import {signIn} from "../apis/common";
 import Toaster from "./Toaster";
 import { useNavigate } from "react-router-dom";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     formContainer: {
         background: '#fff',
         padding: theme.spacing(2),

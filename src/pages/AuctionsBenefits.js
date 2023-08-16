@@ -1,15 +1,15 @@
 import React, {useEffect} from "react"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {Typography} from "@mui/material"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {Grid} from "@material-ui/core"
+import {Grid} from "@mui/material"
 import TextCard from "../components/TextCard"
 import CopyrightSection from "../components/CopyrightSection"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   title: {
     // position: 'relative',
     marginBottom: theme.spacing(4)

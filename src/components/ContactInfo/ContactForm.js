@@ -1,13 +1,13 @@
 import React, {useState} from "react"
 import {Typography, TextField, CircularProgress} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {sendEmail} from "../../apis/common"
 import Toaster from "../Toaster"
 import {RedButton} from "../Buttons/redButton"
-import {Card, CardContent} from "@material-ui/core"
+import {Card, CardContent} from "@mui/material"
 
 const ContactForm = ({fromContact = false}) => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       padding: "1rem 2rem",
       backgroundColor: "white",

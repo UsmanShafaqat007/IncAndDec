@@ -1,10 +1,10 @@
 import React from "react"
-import {makeStyles} from "@material-ui/core/styles"
-import Grid from "@material-ui/core/Grid"
-import Typography from "@material-ui/core/Typography"
+import {styled} from "@mui/material/styles"
+import Grid from "@mui/material/Grid"
+import Typography from "@mui/material/Typography"
 import Rating from "@mui/material/Rating"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   root: {
     marginTop: theme.spacing(8),
     marginBottom: theme.spacing(8),

@@ -8,7 +8,7 @@ import {
     Button,
     Input, DialogTitle, IconButton, DialogContent, Dialog
 } from '@mui/material';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import Toaster from "../Toaster";
 import {postFile} from '../../apis/common'
 import CloseIcon from "@mui/icons-material/Close";
@@ -19,7 +19,7 @@ import {DemoContainer} from "@mui/x-date-pickers/internals/demo";
 import {DatePicker} from "@mui/x-date-pickers";
 import moment from "moment";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     formContainer: {
         background: '#fff',
         padding: theme.spacing(2),

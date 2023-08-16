@@ -1,13 +1,13 @@
 import React from "react"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
-import {Grid, makeStyles} from "@material-ui/core"
+import {Grid, styled} from "@mui/material"
 import Footer from "../components/Footer"
 import CopyrightSection from "../components/CopyrightSection"
 import EmailSubscription from "../components/EmailSubscription"
 import {Typography} from "@mui/material"
 
 const Complaint = (props) => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       marginTop: "20vh"
     },

@@ -10,7 +10,7 @@ import ContactDetails from "../components/ContactInfo/ContactDetails"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
 import {Grid} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {getSpecificLots} from "../apis/lots"
 import {Link} from "react-router-dom"
 import CopyrightSection from "../components/CopyrightSection"
@@ -38,7 +38,7 @@ const Home = () => {
     window.scrollTo(0, 0)
   }, [])
 
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     flexCenter: {
       display: "flex",
       justifyContent: "center"

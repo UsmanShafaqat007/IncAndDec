@@ -1,10 +1,10 @@
 import React from "react"
 import {Typography, Button} from "@mui/material"
-import {makeStyles} from "@material-ui/core/styles"
+import {styled} from "@mui/material/styles"
 import {RedButton} from "../Buttons/redButton"
 
 const ContactDetails = ({fromContact = false}) => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     root: {
       display: "flex",
       justifyContent: "center",

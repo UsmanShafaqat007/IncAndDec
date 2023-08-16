@@ -12,7 +12,7 @@ import {
     DialogContent,
     Dialog
 } from '@mui/material';
-import {makeStyles} from "@material-ui/core/styles";
+import {styled} from "@mui/material/styles";
 import Toaster from "../Toaster";
 import {postFile} from '../../apis/common'
 import CloseIcon from "@mui/icons-material/Close";
@@ -23,7 +23,7 @@ import {DemoContainer} from '@mui/x-date-pickers/internals/demo';
 import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
 import {addUpcomingAuction, updateUpcomingAuction} from "../../apis/upcomingAuctions";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
     formContainer: {
         background: '#fff',
         padding: theme.spacing(2),

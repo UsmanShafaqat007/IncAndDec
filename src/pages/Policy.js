@@ -1,14 +1,14 @@
 import React from "react"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 import HeaderContent from "../components/HeaderContent"
-import {Grid, makeStyles} from "@material-ui/core"
+import {Grid, styled} from "@mui/material"
 import Footer from "../components/Footer"
 import CopyrightSection from "../components/CopyrightSection"
 import EmailSubscription from "../components/EmailSubscription"
 import {Typography} from "@mui/material"
 
 const Policy = (props) => {
-  const useStyles = makeStyles((theme) => ({
+  const useStyles = styled((theme) => ({
     mainHeader: {
       fontSize: "4vh",
       lineHeight: "43px",

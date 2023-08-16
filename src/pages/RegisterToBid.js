@@ -2,13 +2,13 @@ import React, {useEffect} from "react"
 import HeaderContent from "../components/HeaderContent"
 import EmailSubscription from "../components/EmailSubscription"
 import Footer from "../components/Footer"
-import {makeStyles} from "@material-ui/core/styles"
-import {Button, Grid, Typography, Card, CardContent} from "@material-ui/core"
+import {styled} from "@mui/material/styles"
+import {Button, Grid, Typography, Card, CardContent} from "@mui/material"
 import CopyrightSection from "../components/CopyrightSection"
 import NavbarWrapper from "../components/Bars/NavbarWrapper"
 import { RedButton } from "../components/Buttons/redButton"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = styled((theme) => ({
   root: {
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
